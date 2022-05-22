@@ -1,0 +1,34 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx10.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  dllmain.cpp
+  gui.cpp
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.h(8,14): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.h(11,14): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.h(14,14): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.h(15,20): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.h(16,17): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.h(19,27): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.h(20,21): error C7525: inline variables require at least '/std:c++17'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(42,45): error C2440: '=': cannot convert from 'const char *' to 'LPCWSTR'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(42,30): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(63,1): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 3 from 'const char *' to 'LPCWSTR'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(63,1): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4432,1): message : see declaration of 'CreateWindowExW'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(93,48): error C2664: 'HMODULE GetModuleHandleW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(93,38): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(269,1): message : see declaration of 'GetModuleHandleW'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(93,13): error C2737: 'handle': const object must be initialized
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(95,13): error C3536: 'handle': cannot be used before it is initialized
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(100,49): error C2664: 'FARPROC GetProcAddress(HMODULE,LPCSTR)': cannot convert argument 1 from 'int' to 'HMODULE'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(101,3): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(342,1): message : see declaration of 'GetProcAddress'
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(100,13): error C2737: 'create': const object must be initialized
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(105,13): error C3536: 'create': cannot be used before it is initialized
+C:\Users\aobri\source\repos\itnernal\itnernal\src\gui.cpp(109,9): error C2064: term does not evaluate to a function taking 1 arguments
+  hooks.cpp
+  Generating Code...
