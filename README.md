@@ -5,7 +5,7 @@
 
 A simple ImGui and Minhook .dll to allow you to create ImGui menu's alot quicker.
 
-##What it has to offer
+### What it has to offer
 *   **ImGui** - The last version of ImGui so you get the best performance and optimization possible.
 *   **Minhook** - Minhook allows you to show the ImGui across anything.
 *   **Injection** - All the ImGui and DirectX9 hooks I've already set up for you to supercharge your workflow.
